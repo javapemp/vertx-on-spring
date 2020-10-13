@@ -1,0 +1,68 @@
+= Cheatsheets
+
+[[Book]]
+== Book
+
+++++
+ A book JPA entity.
+++++
+'''
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[PageList]]
+== PageList
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[content]]`@content`|`Json array`|-
+|[[first]]`@first`|`Boolean`|-
+|[[hasContent]]`@hasContent`|`Boolean`|-
+|[[hasNext]]`@hasNext`|`Boolean`|-
+|[[hasPrevious]]`@hasPrevious`|`Boolean`|-
+|[[last]]`@last`|`Boolean`|-
+|[[number]]`@number`|`Number (int)`|-
+|[[numberOfElements]]`@numberOfElements`|`Number (int)`|-
+|[[size]]`@size`|`Number (int)`|-
+|[[totalElements]]`@totalElements`|`Number (long)`|-
+|[[totalPages]]`@totalPages`|`Number (int)`|-
+|===
+
+[[Pagination]]
+== Pagination
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[page]]`@page`|`Number (int)`|-
+|[[size]]`@size`|`Number (int)`|-
+|===
+
+[[User]]
+== User
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[authGuid]]`@authGuid`|`String`|-
+|[[email]]`@email`|`String`|-
+|[[enabled]]`@enabled`|`Boolean`|-
+|[[firstName]]`@firstName`|`String`|-
+|[[id]]`@id`|`Number (Long)`|-
+|[[lang]]`@lang`|`String`|-
+|[[lastName]]`@lastName`|`String`|-
+|[[timezone]]`@timezone`|`String`|-
+|[[username]]`@username`|`String`|-
+|===
+
